@@ -403,3 +403,46 @@ p { margin: 0 0 1rem; }
     scroll-behavior: auto !important;
   }
 }
+
+/* Homepage sections */
+.showcase, .privacy-band {
+  padding: 2.5rem 0 1rem;
+}
+.section-head {
+  max-width: 44rem;
+  margin-bottom: 1.5rem;
+}
+.section-head h2 {
+  margin-top: 0.4rem;
+}
+.privacy-band {
+  margin-top: 1.5rem;
+  background: var(--sage-soft);
+  border: 1px solid var(--sage);
+  border-radius: 28px;
+  padding: 2.2rem 1.5rem 1.6rem;
+}
+.privacy-points {
+  display: grid;
+  gap: 1.25rem;
+}
+.band-link {
+  margin: 1.4rem 0 0;
+  font-weight: 600;
+}
+.returning {
+  margin: 2.5rem 0 3rem;
+  background: var(--card);
+}
+.returning h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+@media (min-width: 860px) {
+  .privacy-band {
+    padding: 2.8rem 2.5rem 2rem;
+  }
+  .privacy-points {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
